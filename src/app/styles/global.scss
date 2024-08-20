@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  background-color: #10b981;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4d7c0f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-item {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-item::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 50%;
+  background-color: #84cc16;
+  transition: all 0.3s ease;
+}
+
+.navbar-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+:target {
+  scroll-margin-top: 0.8em;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #7b7a7a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #10b981;
+  border-radius: 5px;
+  border: 0px solid #7b7a7a;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
