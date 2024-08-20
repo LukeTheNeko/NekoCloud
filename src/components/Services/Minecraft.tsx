@@ -16,21 +16,6 @@ export default function Minecraft() {
                             </p>
                             <div className="mt-5 sm:flex md:mt-8">
                             </div>
-                            <div className="relative flex group cursor-pointer">
-                                <div className="flex justify-center items-center bg-emerald-500 rounded-l-lg py-3 px-4">
-                                    <p className="text-[12px] md:text-[14px] text-white">IP:</p>
-                                </div>
-                                <div className="flex items-center gap-[14px] py-3 px-5 bg-transparent group-hover:bg-blue-100 border-2 border-emerald-500 rounded-r-lg transition-colors duration-300 ease-in-out">
-                                    <p className="text-[12px] md:text-[14px] text-emerald-500">brasil.nekocloud.com</p>
-                                    <div className="bg-emerald-500 py-1 px-3 rounded-full"><p className="text-[10px] md:text-[12px] text-white">
-                                        1.8x até 1.21
-                                    </p>
-                                    </div>
-                                </div>
-                                <span className="absolute top-16 left-32 scale-0 transition-all rounded bg-emerald-500 p-2 text-xs text-white group-hover:scale-100">
-                                    Clique para copiar o IP!
-                                </span>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ export default function Page() {
             <section className="bg-slate-100">
                 <div className="sm:flex sm:flex-col sm:align-center">
                     <div className="font-semibold text-gray-800 text-center text-2xl xl:text-3xl md:text-2xl sm:text-lg p-2">
-                        <span>Escolha a <span className="text-emerald-500">localização</span> desejada</span>
+                        <span>Escolha uma <span className="text-emerald-500">localização</span></span>
                     </div>
                     <div className="flex justify-center items-center">
                         <div className="relative z-20 flex flex-wrap justify-center items-center gap-3 mt-5">
