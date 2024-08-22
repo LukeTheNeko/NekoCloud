@@ -5,37 +5,37 @@ export default function CardCloud(props: any) {
         <tr className="text-[14px] bg-gradient-to-l to-slate-50 from-white">
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaServer className="text-emerald-500" />
+                    <FaServer className="text-emerald-500" size={15} />
                     R7950x
                 </span>
             </td>
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaShareAlt className="text-emerald-500" />
+                    <FaShareAlt className="text-emerald-500" size={15} />
                     {props.core} vCore
                 </span>
             </td>
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaMemory className="text-emerald-500" />
+                    <FaMemory className="text-emerald-500" size={15} />
                     {props.ram} GB de RAM
                 </span>
             </td>
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaHdd className="text-emerald-500" />
+                    <FaHdd className="text-emerald-500" size={15} />
                     {props.disco} GB de Disco
                 </span>
             </td>
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaShieldAlt className="text-emerald-500" />
+                    <FaShieldAlt className="text-emerald-500" size={15} />
                     Incluso
                 </span>
             </td>
             <td className="px-6 py-4">
                 <span className="flex items-center gap-2">
-                    <FaNetworkWired className="text-emerald-500" />
+                    <FaNetworkWired className="text-emerald-500" size={15} />
                     {props.mbps} MBPs
                 </span>
             </td>

@@ -25,7 +25,7 @@ export default function Faq() {
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="max-w-2xl mx-auto text-center">
                         <div className="container flex flex-col items-center justify-center w-full p-6 mx-auto text-center xl:px-0">
-                            <div className="text-sm font-bold tracking-wider text-emerald-500 uppercase">FAQ</div>
+                            <div className="text-base font-semibold uppercase tracking-wide text-emerald-500">F.A.Q</div>
                             <h2 className="max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl">Perguntas frequentes</h2>
                         </div>
                     </div>

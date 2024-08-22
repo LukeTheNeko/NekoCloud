@@ -9,6 +9,8 @@ import Cloud from "@/components/Services/Cloud";
 
 import Image from "next/image";
 import { useState } from "react";
+import { FaCode } from "react-icons/fa";
+import { GrConfigure, GrSystem } from "react-icons/gr";
 
 export default function Page() {
     const [selectedHost, setSelectedHost] = useState<"br" | "cad">("br");
@@ -59,7 +61,60 @@ export default function Page() {
                     <div>
                     </div>
                 </div>
-            </section >
+            </section>
+            <section className="bg-slate-100 p-6">
+                <div className="bg-gradient-to-br from-teal-900 to-emerald-950 py-20 rounded-2xl">
+                    <div className="max-w-[1250px] mx-6 md:mx-auto flex flex-col items-center">
+                        <div className="flex flex-col items-center gap-2">
+                            <h2 className="text-white text-center text-4xl font-bold">Servidores Bare-Metal</h2>
+                            <p className="text-white md:text-xl text-center max-w-2xl font-light opacity-80">
+                                Nossos servidores oferecem o melhor desempenho para usuários avançados e grandes projetos.
+                            </p>
+                        </div>
+                        <div className="w-full mt-20 flex flex-col gap-10 md:gap-0 md:flex-row">
+                            <div className="flex flex-col items-center md:items-start gap-6 md:max-w-[33.3333%] p-4">
+                                <div className="flex flex-col justify-center items-center">
+                                    <GrSystem size={40} className="text-white md:size-10" />
+                                </div>
+                                <div className="flex flex-col gap-3">
+                                    <span className="text-2xl font-semibold text-white text-center md:text-start">
+                                        Escolha seu S.O.
+                                    </span>
+                                    <span className="text-slate-200 font-light text-center md:text-start">
+                                        Você pode usar qualquer sistema operacional que desejar com seu servidor, e nós fornecemos reinstalações gratuitas do sistema operacional.
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-center md:items-start gap-6 w-full md:max-w-[33.3333%] p-4">
+                                <div className="flex flex-col justify-center items-center">
+                                    <FaCode size={40} className="text-white md:size-10" />
+                                </div>
+                                <div className="flex flex-col gap-3">
+                                    <span className="text-2xl font-semibold text-white text-center md:text-start">
+                                        Acesso total ao root
+                                    </span>
+                                    <span className="text-slate-200 font-light text-center md:text-start">
+                                        Com nossos servidores dedicados autogerenciados, você tem controle total da raiz do sistema operacional e do hardware.
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-center md:items-start gap-6 w-full md:max-w-[33.3333%] p-4">
+                                <div className="flex flex-col justify-center items-center">
+                                    <GrConfigure size={40} className="text-white md:size-10" />
+                                </div>
+                                <div className="flex flex-col gap-3">
+                                    <span className="text-2xl font-semibold text-white text-center md:text-start">
+                                        Configure seu servidor
+                                    </span>
+                                    <span className="text-slate-200 font-light text-center md:text-start">
+                                        Precisa de algo diferente? Construímos servidores personalizados com o hardware que você deseja para atender a qualquer necessidade.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Faq />
             <Footer />
         </>

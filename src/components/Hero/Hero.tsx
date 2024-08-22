@@ -10,7 +10,7 @@ export default function Hero() {
                     <div className="relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 m-4">
                         <div className="flex items-center justify-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
                             <div className="text-left">
-                                <span className="text-xl font-semibold rounded-full text-green-500">Hospedagem Minecraft</span>
+                                <span className="text-xl font-semibold rounded-full text-emerald-500">Hospedagem Minecraft</span>
                                 <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-800 sm:text-5xl sm:leading-none md:text-6xl">
                                     Neko
                                     <span className="font-bold text-emerald-500">Cloud</span>
